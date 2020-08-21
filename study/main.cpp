@@ -1,15 +1,28 @@
-//
-//  main.cpp
-//  study
-//
-//  Created by 鏌愭煇 s on 2020/8/21.
-//  Copyright 漏 2020 鏌愭煇 s. All rights reserved.
-//
-
 #include <iostream>
+#include <vector>
+#include "Sort.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main(int argc, char** argv)
+
+{
+	int n;
+	vector<int> num;
+	while (cin >> n) {
+		num.push_back(n);
+		if (cin.get() == '\n')//完美
+			break;
+	}
+	//cout << num.size() << endl;
+	//BubbleSort1(num, num.size());
+	//BubbleSort(num, num.size());
+	//insertionSort(num, num.size());
+
+	merge_sort(num, 0,num.size()-1);// 当时留下的问题 模板产生对象造成报错
+	for (int x = 0; x < num.size(); x++)
+	{
+		cout << num[x] << ' ';
+	}
+	cout << endl;
+	return 0;
 }
