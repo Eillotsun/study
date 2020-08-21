@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A99DB62124EFB9F200600E41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99DB62024EFB9F200600E41 /* main.cpp */; };
+		A99DB63824EFBC0100600E41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99DB63224EFBC0100600E41 /* main.cpp */; };
+		A99DB63924EFBC0100600E41 /* Insertion sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99DB63324EFBC0100600E41 /* Insertion sort.cpp */; };
+		A99DB63A24EFBC0100600E41 /* Selection sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99DB63424EFBC0100600E41 /* Selection sort.cpp */; };
+		A99DB63B24EFBC0100600E41 /* Merge sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99DB63624EFBC0100600E41 /* Merge sort.cpp */; };
+		A99DB63C24EFBC0100600E41 /* Bubble sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99DB63724EFBC0100600E41 /* Bubble sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,12 @@
 
 /* Begin PBXFileReference section */
 		A99DB61D24EFB9F200600E41 /* study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = study; sourceTree = BUILT_PRODUCTS_DIR; };
-		A99DB62024EFB9F200600E41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A99DB63224EFBC0100600E41 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A99DB63324EFBC0100600E41 /* Insertion sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion sort.cpp"; sourceTree = "<group>"; };
+		A99DB63424EFBC0100600E41 /* Selection sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection sort.cpp"; sourceTree = "<group>"; };
+		A99DB63524EFBC0100600E41 /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		A99DB63624EFBC0100600E41 /* Merge sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge sort.cpp"; sourceTree = "<group>"; };
+		A99DB63724EFBC0100600E41 /* Bubble sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Bubble sort.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,12 @@
 		A99DB61F24EFB9F200600E41 /* study */ = {
 			isa = PBXGroup;
 			children = (
-				A99DB62024EFB9F200600E41 /* main.cpp */,
+				A99DB63724EFBC0100600E41 /* Bubble sort.cpp */,
+				A99DB63324EFBC0100600E41 /* Insertion sort.cpp */,
+				A99DB63224EFBC0100600E41 /* main.cpp */,
+				A99DB63624EFBC0100600E41 /* Merge sort.cpp */,
+				A99DB63424EFBC0100600E41 /* Selection sort.cpp */,
+				A99DB63524EFBC0100600E41 /* Sort.h */,
 			);
 			path = study;
 			sourceTree = "<group>";
@@ -119,7 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A99DB62124EFB9F200600E41 /* main.cpp in Sources */,
+				A99DB63924EFBC0100600E41 /* Insertion sort.cpp in Sources */,
+				A99DB63A24EFBC0100600E41 /* Selection sort.cpp in Sources */,
+				A99DB63C24EFBC0100600E41 /* Bubble sort.cpp in Sources */,
+				A99DB63824EFBC0100600E41 /* main.cpp in Sources */,
+				A99DB63B24EFBC0100600E41 /* Merge sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
