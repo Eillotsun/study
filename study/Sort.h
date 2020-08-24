@@ -22,6 +22,12 @@ void insertionSort(vector<int>& a, int N);
 //void merge_Sort(vector<int> &a, int low, int high);
 void merge_sort(vector<int>& a, int low, int high);
 void merge(vector<int>& nums, int low, int mid, int high);
+
+//快速排序
+//int partition(vector<int> &a, int i, int j);
+void quickSort(vector<int>& a, int low, int high);
+
+
 //头文件里如果定义函数 cpp文件如有相同函数 则分别会产生obj 所以在链接时链接器就会报错
 //正确的做法应该是把定义放到.cpp文件中，然后只在头文件中声明
 //对于函数来说，在 .h中添加声明即可

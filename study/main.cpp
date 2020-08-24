@@ -18,7 +18,8 @@ int main(int argc, char** argv)
 	//BubbleSort(num, num.size());
 	//insertionSort(num, num.size());
 
-	merge_sort(num, 0,num.size()-1);// 当时留下的问题 模板产生对象造成报错
+	//merge_sort(num, 0,num.size()-1);// 当时留下的问题 本来想用模版写个通用变量的函数 结果模板产生对象造成报错
+    quickSort(num, 0, int(num.size()-1));
 	for (int x = 0; x < num.size(); x++)
 	{
 		cout << num[x] << ' ';
