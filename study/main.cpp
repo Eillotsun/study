@@ -1,11 +1,16 @@
 #include <iostream>
 #include <vector>
 #include "Sort.h"
+#include "Bitmask.h"
+
 using namespace std;
+
+
 
 int main(int argc, char** argv)
 
 {
+
 	int n;
 	vector<int> num;
 	while (cin >> n) {
@@ -25,5 +30,14 @@ int main(int argc, char** argv)
 		cout << num[x] << ' ';
 	}
 	cout << endl;
+  
+    /* test Bitmask
+     
+    Permisson p;
+    p.set_permisson(ALLOW_SELECT);
+    cout<<"p's permission is "<<p.get_flag()<<endl;
+     
+     */
 	return 0;
+    
 }

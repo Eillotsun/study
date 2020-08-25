@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-
+//In C++, you can use std::sort, std::stable_sort, or std::partial_sort in STL algorithm.
 
 // ц╟ещеепР
 void BubbleSort1(vector<int>& arr, int len);
